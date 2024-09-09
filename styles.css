@@ -136,7 +136,7 @@ footer {
 @media only screen and (max-width: 768px) {
 
     body {
-        background-attachment: scroll; /* Change this to scroll for mobile devices */
+        background-attachment: fixed; /* Change this to scroll for mobile devices */
     }
     header nav ul {
         flex-direction: column;
