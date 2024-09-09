@@ -136,7 +136,7 @@ footer {
 @media only screen and (max-width: 768px) {
 
     body {
-        background-attachment: fixed; /* Change this to scroll for mobile devices */
+        background-attachment: scroll; /* Change this to scroll for mobile devices */
     }
     header nav ul {
         flex-direction: column;
@@ -215,7 +215,7 @@ footer {
     }
     body{
         background-image: url('https://th.bing.com/th/id/R.b2183a3ada634592cf64816314b857ab?rik=32sN7UUkNh%2bVUg&pid=ImgRaw&r=0');
-        background-size: auto; /* Adjust size on mobile */
+        background-size: cover; /* Adjust size on mobile */
        
         background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
