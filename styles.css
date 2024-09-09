@@ -135,6 +135,9 @@ footer {
 /* Media Query for Tablets and Small Screens (<= 768px) */
 @media only screen and (max-width: 768px) {
 
+    body {
+        background-attachment: scroll; /* Change this to scroll for mobile devices */
+    }
     header nav ul {
         flex-direction: column;
     }
@@ -215,7 +218,7 @@ footer {
         background-size: cover; /* Ensure the image covers the entire background */
         background-position: center; /* Center the background image */
         background-repeat: no-repeat; /* Prevent the image from repeating */
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 }
 
