@@ -132,6 +132,51 @@ footer {
     width: 100%;
 }
 
+/* Media Query for iPhone 11 */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) 
+and (-webkit-device-pixel-ratio: 2) {
+    /* Styles specific to iPhone 11 */
+    
+    body {
+        background-size: cover;
+        background-attachment: scroll; /* Background scrolls with content */
+    }
+
+    header nav ul {
+        flex-direction: row;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .hero {
+        height: 60vh;
+        padding: 10px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .hero .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    #about p, #goals ul {
+        padding: 0 15px;
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+}
+
 /* Media Query for Tablets and Small Screens (<= 768px) */
 @media only screen and (max-width: 768px) {
 
